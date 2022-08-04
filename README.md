@@ -9,9 +9,9 @@ which can also be forked as a boilerplate for older versions of Jekyll.
 
 - Starter-kit demo:
 <https://yizeng.github.io/jekyll-theme-simple-texture/>
-- My own personal blog: <http://yizeng.me/blog>
+- My own personal blog: <https://yizeng.me/blog>
 
-![Screenshot - Home](assets/images/screenshots/home.png)
+![Screenshot - Home](assets/images/screenshots/homepage.png)
 
 ![Screenshot - Blog](assets/images/screenshots/post.png)
 
@@ -22,7 +22,7 @@ which can also be forked as a boilerplate for older versions of Jekyll.
 If you are creating a new website or blog,
 please follow the commands below first:
 
-1. Install Jekyll and [Bunlder][Bunlder]
+1. Install Jekyll and [Bundler][Bundler]
 
        gem install jekyll bundler
 
@@ -42,7 +42,7 @@ Then for existing Jekyll apps,
 
        gem install bundler
 
-1. Remove Jekyll auto-generated default pages `404.html`, `about.md` and `index.md` or any your custom layouts or existing theme files.
+1. Remove Jekyll auto-generated default pages `404.html`, `about.markdown` and `index.markdown` or any your custom layouts or existing theme files.
 
 1. Remove the existing `Gemfile.lock`.
 
@@ -78,14 +78,7 @@ i.e. `jekyllapp` in this example.
    ```ruby
    source "https://rubygems.org"
 
-   gem 'jekyll', '= 3.5.2' # locked in to be consistent GitHub Pages.
-
-   group :jekyll_plugins do
-     gem 'jekyll-feed'
-     gem 'jekyll-redirect-from'
-     gem 'jekyll-seo-tag'
-     gem 'jekyll-sitemap'
-   end
+   gem "github-pages", group: :jekyll_plugins
    ```
 
 6. Run `bundle install` to install dependencies.
@@ -156,4 +149,4 @@ The theme is available as open source under the terms of the
     SOFTWARE.
 
 [Jekyll]: http://jekyllrb.com/
-[Bunlder]: http://bundler.io/
+[Bundler]: https://bundler.io/
