@@ -21,14 +21,15 @@ sass:
   style: compressed
 
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
+#url: # the base hostname & protocol for your site, e.g. http://example.com
+url: https://olofhaglund.name
 baseurl: # the subpath of your site, e.g. /blog
-title: Simple Texture
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+title: Olof Haglund
+description: "Home of a security know how"
+keywords: 'Olof Haglund, Security, Ethical Hacking'
 author:
   name: Olof Haglund
-  job_title: Software development consult.
+  job_title: Security and Ethicla Hacking Consultant
   location: Karlskrona, Sweden
   email: olof@olofhaglund.name
   social_links:
