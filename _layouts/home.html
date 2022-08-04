@@ -24,6 +24,7 @@
     <ul id="menu">
         <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
         <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+        <li data-menuanchor="about"><a href="#about">About</a></li>
     </ul>
 
     <div id="section0" class="section" data-name="bio">
@@ -50,6 +51,25 @@
         <h1 class="animated hidden">
             <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
         </h1>
+        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
+    </div>
+
+    <div id="section2" class="section" data-name="about">
+        <h1>About</h1>
+        <p>
+          Just a small town hacker <br>
+          Livin' in a hackable world <br>
+          I took the midnight snack going somewhere <br>
+          Just a city dude <br>
+          Born and working in south Swede <br>
+        </p>
+
+        <p>
+          A winner in a throne room <br>
+          A taste of whiskey and sour beer <br>
+          For a smile I will hack the line <br>
+          It goes on and on and on and on <br>
+        </p>
     </div>
 
     {% include home/scripts.html %}
