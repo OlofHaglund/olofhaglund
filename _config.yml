@@ -20,6 +20,9 @@ kramdown:
 sass:
   style: compressed
 
+include:
+  - _well-known
+
 # Site Data
 #url: # the base hostname & protocol for your site, e.g. http://example.com
 url: https://olofhaglund.name

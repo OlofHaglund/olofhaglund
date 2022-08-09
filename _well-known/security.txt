@@ -1,0 +1,7 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+
+Canonical: https://olofhaglund.name/.well-known/security.txt
+Contact: mailto:olof@olofhaglund.name
