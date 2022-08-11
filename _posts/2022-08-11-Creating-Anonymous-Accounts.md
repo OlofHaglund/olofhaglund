@@ -18,7 +18,7 @@ So from here we have two things we want to protect our self from.
 
 We'll start with the mail part and then later we carry on to the phone part. This guide is for just giving a reasonable secure setup. For good privacy or anonymity then this is just a very small part of what needs to be done to secure your self.
 
-![Psuedo-anonymous-accounts][{{site.url}}/assets/images/psuedo-anonymous-accounts.jpg]
+![Psuedo-anonymous-accounts]({{site.url}}/assets/images/psuedo-anonymous-accounts.jpg)
 
 ## Anonymous Mail
 Almost all accounts we use today requires a mail or it uses mail as the username. Only a few services that advertise them selves as a privacy first company, allows account creation without mail needed to create the account.
