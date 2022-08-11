@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll on Fedora 34 and Missing Webrick Dependency"
 description: "Setting up Jekyll on an Fedora 34 installation"
-categories: ["Software Development"]
+categories: ["Software-Development"]
 tags: [Fedora, Webrick, Jekyll]
 redirect_from:
   - /2022/08/05/
