@@ -34,6 +34,7 @@ The next stop in our tour is my project MOC, here I can show how I in some place
 But now to answer the question that I baited with, how am I automating these MOCs? When I have a new project idea I create a new note in my note app and add the tag *project-idea* to the note. When I start working on a project I change the status to *project-wip* and finally when I have published the project it will be changed to *project-published*. When I change the status of the project, the MOC is automatically updated to reflect the changes allowing me to perform all my work on a project in one file instead of manually updating another file with the status of this project.
 
 ![Map of Content the project moc]({{site.url}}/assets/images/Map-of-Content-the-project-moc.png)
+
 This will conclude my tour of MOC inside my PKM showing the power of using MOCs to structure one's content. I will admit when comparing to other people using MOCs I have a few more of them than what others generally have. I might have gone a bit crazy with them, no need for anyone to jump as deep into the rabbit hole as I have. If you have survived this onslaught of nerdgasm I hope that this has brought up a few ideas that you can implement in your daily work.
 
 # Images
