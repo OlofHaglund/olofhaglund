@@ -1,4 +1,7 @@
 .unit-article {
+    p {
+      text-align: justify;
+    }
     a {
         font-size: .95em;
 
@@ -70,6 +73,9 @@
         height: auto;
 
         border: solid 5px transparent;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     ul {
