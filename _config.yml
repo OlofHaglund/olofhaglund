@@ -36,26 +36,20 @@ author:
   location: Karlskrona, Sweden
   email: olof@olofhaglund.name
   social_links:
-    - name: facebook
-      url:
     - name: github
       url: https://github.com/OlofHaglund
-    - name: instagram
-      url:
     - name: linkedin
       url: https://www.linkedin.com/in/haglundjoffe/
-    - name: stackoverflow
-      url:
     - name: twitter
       url: https://twitter.com/olofhaglund
-    - name: vk
-      url:
+    - name: mastodon
+      url: https://mastodon.social/@olofhaglund
 home:
   section1: <h1>Olof Haglund</h1>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
-  footer_content: Just the wierd mind of an ethical hacker and security dweller. 
+  footer_content: Just the wierd mind of an ethical hacker and security dweller.
 
 disqus:
   shortname: # e.g. yizeng

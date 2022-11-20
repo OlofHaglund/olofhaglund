@@ -79,4 +79,9 @@ $size: 48;
 
         background-color: #6383A8;
     }
+    .ico-mastodon {
+        @include get-ico-image(mastodon);
+
+        background-color: #6383A8;
+    }
 }
