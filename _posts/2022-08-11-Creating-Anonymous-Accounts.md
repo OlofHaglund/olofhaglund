@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating Anonymous Accounts"
-description: "Setting up Jekyll on an Fedora 34 installation"
+description: "Creating anonymous accounts for your privacy"
 categories: [Privacy]
 tags: [Privacy, Twitter, Guide]
 redirect_from:
