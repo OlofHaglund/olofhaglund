@@ -14,7 +14,7 @@ For my current assignment I had the opportunity to migrate our documentation fro
 
 One important thing to keep in mind is that these were not rules put in place for the team, just ideas, and opinions of how I as a team member would find it most optimal. The documentation is collaborative collection and ownership. Different people have different preferences and different teams have different needs, visions, and missions.
 
-![[sigmund-k3Y2iBBCag8-unsplash.jpg]]
+![Documentation]({{site.url}}/assets/images/documentation.jpg)
 
 ## Vision
 - The goal is that it should be low friction for the team to create, update and read the documentation.
