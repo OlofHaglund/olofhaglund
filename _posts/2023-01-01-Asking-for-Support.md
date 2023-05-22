@@ -12,7 +12,7 @@ redirect_from:
 As I have moved over to [Mastodon](https://mastodon.social/@olofhaglund) from Twitter. I thought that I should migrate my old rant on how to ask for support. Earlier in my career when I was working as a tech lead for the API Management platform i daily received messages on teams for support with various task. Ok here we go.
 
 ## Don't just say "Hi"
-I understand that you want polite, however when we get the notification we louse our focus from what we have been working on and stare into the chat waiting on a response. Write your whole question directly and we can start giving you support directly.
+I understand that you want polite, however when we get the notification we lose our focus from what we have been working on and stare into the chat waiting on a response. Write your whole question directly and we can start giving you support directly.
 
 There is also no need to ask if I have time to help you. If I don't have time to help I will simply say that I will help you later or send the question forward to one my colleagues that have time.
 
