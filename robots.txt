@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /assets/fonts/
+Disallow: /assets/javascript/
+Disallow: /assets/stylesheets/
+Disallow: /search.json
+Disallow: /cdn-cgi/l/email-protection
