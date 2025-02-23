@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working With Map of Contents"
-description: "Setting up Jekyll on an Fedora 34 installation"
+description: "What is Map of Contents? And why working with them?"
 categories: [Personal-Knowledge-Management]
 tags: [MOC]
 redirect_from:
