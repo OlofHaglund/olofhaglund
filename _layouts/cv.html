@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ site.lang }}">
+<!--<![endif]-->
+
+<head>
+    {% include common/meta.html %}
+    <link href='{{ site.baseurl }}/assets/stylesheets/cv.css' rel="stylesheet" type="text/css">
+    {% include common/favicon.html %}
+    {% include common/libraries.html %}
+    {% if site.google_tag_manager %}
+        {% include common/gtm-head.html %}
+    {% endif %}
+</head>
+
+<body>
+    {% if site.google_tag_manager %}
+        {% include common/gtm-body.html %}
+    {% endif %}
+
+    <div class="section" data-name="bio">
+
+        {% include common/notices.html %}
+
+        <div class="headings animated fadeInLeft">
+            {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
+            {% if site.cv.section1 %}{{ site.cv.section1 }}{% endif %}
+        </div>
+    </div>
+    <div class="section cv">
+        <h3>Work Experience</h3>
+        <div>
+            <div>
+                <h4>Consultant - IT-Security Tester</h4>
+                <span>2021 - Current</span>
+                <span>Knowit Cybersecurity and Law</span>
+                <span>Karlskrona</span>
+                <p>
+                    Managed the end-to-end security testing lifecycle, from initial scope meetings and assignment planning to the execution of security tests and report walkthroughs. Areas of test included web applications, mobile applications, infrastructure and telecom 5G Core.
+
+                    Lead for the internal work planning for team members between assignments. Contributed to the business development forum. 
+                </p>
+            </div>
+            <div>
+                <h4>Consultant - Apigee Specialist & Tech Lead</h4>
+                <span>2017 - 2021</span>
+                <span>Octacon</span>
+                <span>Karlskrona</span>
+                <p>
+                    Apigee Tech Lead within a 6-person team (2 Apigee specialists) overseeing the full lifecycle of development, maintenance, and developer support for the platform. As Tech Lead, spearheaded the migration of Apigee from on-premise to cloud to increase platform stability. Managed cost forecasting, risk assessments and incident resolution as part of the Tech Lead role.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section cv">
+        <h3>Education</h3>
+        <div>
+            <h4>IT-Security</h4>
+            <span>2014-2017</span>
+            <span>Blekinge Institute of Technology</span>
+            <span>Karlskrona</span>
+            <br />
+            <p>
+                145/180 HP
+            </p>
+        </div>
+        <div>
+            <h4>Technology</h4>
+            <span>2011-2014</span>
+            <span>Teknikum</span>
+            <span>Växjö</span>
+        </div>
+    </div>
+    <div class="section cv">
+        <h3>Certifactes</h3>
+        <div>
+            <h4>Comptia Pentest+</h4>
+            <span>2021, 2024</span>
+        </div>
+        <div>
+            <h4>Apigee</h4>
+            <span>2017</span>
+        </div>
+    </div>
+    <div class="section cv">
+        <h3>Competence Development</h3>
+        <div>
+            <details>
+                <summary><h4>Books</h4></summary>
+                <p>Collection of books read in security area that is worth while to mention.</p>
+                <ul>
+                    <li>How to Measure Anything In Cybersecurity</li>
+                    <li>Intrusion Detection Honeypots</li>
+                </ul>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary><h4>Hack the Box Academy</h4></summary>
+                <p>
+                    Collection of badges earned in Hack the Box Academy.
+                </p>
+                <ul>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/9e07e91b-1b6e-11f0-864f-bea50ffe6cb4"> Intro to Academy</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/f849abcb-9ffd-11ee-bfb6-bea50ffe6cb4"> Linux Fundamentals</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/adfc8e37-a947-11ee-bfb6-bea50ffe6cb4"> Windows Fundamentals</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/6ae0107c-e9f7-11ef-864f-bea50ffe6cb4"> Network Enumeration with Nmap</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/8cc83f1b-c035-11ee-a670-bea50ffe6cb4"> Active Directory LDAP</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/16fa800d-4777-11f0-bcfd-bea50ffe6cb4"> File Inclusion</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/48b665d0-29c0-11f0-bcfd-bea50ffe6cb4"> Introductions to Web Applications</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/3a83342e-3c9b-11f0-bcfd-bea50ffe6cb4"> Web Attacks</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/20effaf8-291b-11f0-864f-bea50ffe6cb4"> Information Gathering - Web Edition</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/4c058cfc-5048-11f0-bcfd-bea50ffe6cb4"> Abusing HTTP Misconfigurations</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/44137ff0-1b6c-11f0-864f-bea50ffe6cb4"> Footprinting</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/2b73ae30-5f21-11f0-bcfd-bea50ffe6cb4"> Shells & Payloads</a></li>
+                    <li><a href="https://academy.hackthebox.com/achievement/badge/fcc667f7-2293-11f0-864f-bea50ffe6cb4"> Attacking Common Services</a></li> 
+                </ul>
+            </details>
+        </div>
+
+    </div>
+    <div class="section cv">
+        <h3>Elected Representative</h3>
+        <div>
+            <h4>Treasurer</h4>
+            <span>2021-2023</span>
+            <span>Mammas Källare</span>
+            <span>Karlskrona</span>
+            <p>
+                Mammas Källare is an association in Karlskrona that mostly aimed at students. Thoe organization hosts LAN parties tournaments and bourd game nights. 
+            </p>            
+        </div>
+        <div>
+            <h4>Auditor</h4>
+            <span>2020-2020</span>
+            <span>Mammas Källare</span>
+            <span>Karlskrona</span>
+        </div>
+        <div>
+            <h4>Member of the Board</h4>
+            <span>2016-2017</span>
+            <span>Mammas Källare</span>
+            <span>Karlskrona</span>
+        </div>
+        <div>
+            <h4>Crew</h4>
+            <span>2015-2017</span>
+            <span>WonderLAN</span>
+            <span>Karlskrona</span>
+            <p>
+                WonderLAN is a LAN party hosted by Mammas Källare. Began working the kiosk and progressed to lead for the technical parts of the event.  
+            </p>   
+        </div>
+    </div>
+    <div class="section cv">
+        <h3>Languages</h3>
+        <div>
+            <h4>Swedish</h4>
+            <span>Native (C2)</span>
+        </div>
+        <div>
+            <h4>English</h4>
+            <span>Vantage (B2)</span>
+        </div>
+    </div>
+    <div class="section">
+        <div class="social-links">
+            {% if site.author.email %}
+             <a class="btn-light ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
+            {% endif %}
+            {% for link in site.author.social_links %}
+                {% if link.url %}
+                    <a class="btn-light ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>
