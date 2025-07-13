@@ -40,12 +40,12 @@ author:
       url: https://github.com/OlofHaglund
     - name: linkedin
       url: https://www.linkedin.com/in/haglundjoffe/
-    - name: twitter
-      url: https://twitter.com/olofhaglund
     - name: mastodon
       url: https://mastodon.social/@olofhaglund
 home:
   section1: <h1>Olof Haglund</h1>
+cv:
+  section1: <h2>Curriculum Vitae</h2>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
@@ -62,3 +62,4 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
+  cv: /cv/
