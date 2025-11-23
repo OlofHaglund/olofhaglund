@@ -81,28 +81,52 @@ textarea {
     span {
         padding: 0 10px 0 10px;
     }
+    span.col-right{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    span.col-right span {
+        margin-left: 0;
+        padding-left: 0px;
+    }
 }
 
 .section.cv {
+    /* Use a two-column grid where the left column sizes to the widest .col-left */
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 0.75rem;
+    align-items: start;
     text-align: left;
     width: 50rem;
     margin: 0 auto;
-    h4 {
-        text-align: left;
-        display: inline-block; // Ensure h4 is inline
-        margin-right: 10px; // Add some space between h4 and spans
-        margin-bottom: 0px; // Remove margin bottom
+    margin-bottom: 2rem;
+
+    /* Make the inner section wrappers transparent so their children participate in this grid */
+    > section{
+        display: contents;
+    }
+
+    /* rows inside each entry (h4.row, div.row) should not introduce an extra wrapper either */
+    h4.row,
+    .row {
+        display: contents;
     }
 
     p, span {
         text-align: left;
-        display: inline-block; // Ensure spans are inline
     }
-    span {
+
+    .support-span {
         font-size: 0.8em;
     }
-    p {
-        margin-top: 0.5em;
+
+    p, h4 {
+        margin-top: 0.25em;
+    }
+    .language {
+        margin: 0em;
     }
 }
 
@@ -110,7 +134,23 @@ textarea {
     text-align: center;
 }
 
+.section.cv > h3 {
+    /* Keep section headings centered and spanning both columns */
+    grid-column: 1 / -1;
+    justify-self: center;
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+}
 
+.col-left {
+    grid-column: 1;
+    justify-self: start;
+    margin-left: 0;
+}
+
+.col-right {
+    grid-column: 2;
+}
 
 
 .btn-light,
@@ -196,3 +236,14 @@ textarea {
 }
 
 @import 'simple-texture/home/responsive';
+
+
+@media print {
+  @page { margin: 0; }
+  body { margin: 1.6cm; }
+  h1 { font-size: 4em;}
+  h3 { 
+      justify-self: left !important;
+      text-align: left !important;
+    }   
+}
